@@ -1,3 +1,35 @@
+.portada{
+  scroll-snap-align: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navegacion{
+  display: flex;
+  margin: auto;
+  list-style: none;
+  background-color: azure;
+  width: max-content;
+  border-radius: 8px;
+}
+
+.navegacion li{
+  padding: 0 15px 0 15px;
+  font-size: 20px;
+  color: rgb(12, 141, 12);
+  border-radius: 8px;
+  
+
+}
+
+.navegacion li:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+
 .portafolio, .micro {
     list-style: none;
     display: flex;
@@ -11,10 +43,13 @@
   
 .fig{
   display: flex;
+  width: 80%;
+  left: 10%;
   justify-content: space-between;
   position: relative;
   animation: icons 3s infinite ease-in-out;
   margin-bottom: 5rem;
+
 }
 
 .fig1{

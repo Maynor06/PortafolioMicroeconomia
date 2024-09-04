@@ -1,0 +1,79 @@
+.modulo1 {
+    margin: 0;
+    background-color: #000000;
+    background-image: radial-gradient(
+        circle at 30% 30%, 
+        rgba(0, 128, 0, 0.2), 
+        transparent 25%
+      ),
+      radial-gradient(
+        circle at 70% 70%, 
+        rgba(128, 0, 128, 0.2), 
+        transparent 25%
+      );
+    background-repeat: no-repeat; 
+    background-size: cover;
+    color: aliceblue; 
+    height: 100vh;
+}
+
+.principal{
+    background-color: gray;
+    width: max-content;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
+
+.principal h2{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.semana{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #fff;
+    width: 30%;
+    border-radius: 1rem;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.text{
+    margin: 0 20px;
+}
+
+.document{
+    border: none;
+    border-radius: 2rem;
+    width: 90%;
+    height: 180px;
+    margin: auto;
+}
+
+.vermas:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.vermas{
+    background: transparent;
+    width: max-content; 
+    margin: auto;
+    border-radius: 5px;
+    color: #fff;
+  
+}
+

@@ -1,4 +1,5 @@
 ---
+import Modulo1 from '../components/Modulo1.astro'
 import Portado from '../components/Portado.astro';
 import Layout from '../layouts/Layout.astro';
 ---
@@ -6,12 +7,12 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Portafolio">
 	<main>
 		<Portado/>
+    <Modulo1/>
 	</main>
 </Layout>
 
 <style>
 	body {
-  height: 100vh;
   margin: 0;
   background-color: #000000;
   background-image: radial-gradient(
@@ -27,10 +28,9 @@ import Layout from '../layouts/Layout.astro';
   background-repeat: no-repeat; 
   background-size: cover;
   color: aliceblue; 
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  }
 
-}
+  main{
+  scroll-snap-type: y mandatory;
+  }
 </style>
